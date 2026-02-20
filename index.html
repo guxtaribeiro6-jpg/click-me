@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feliz Aniversário 💖</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(135deg, #ff4e8a, #ff9ecb);
+    font-family: Arial, sans-serif;
+    text-align:center;
+    color:white;
+}
+
+.container{
+    padding:40px 20px;
+}
+
+h1{
+    font-size:35px;
+}
+
+p{
+    font-size:18px;
+    max-width:600px;
+    margin:auto;
+}
+
+img{
+    width:250px;
+    border-radius:20px;
+    margin:20px 0;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+button{
+    background:white;
+    color:#ff4e8a;
+    border:none;
+    padding:15px 25px;
+    font-size:18px;
+    border-radius:30px;
+    cursor:pointer;
+    margin-top:20px;
+}
+
+.hidden{
+    display:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Feliz Aniversário, Meu Amor 💕</h1>
+
+    <p>
+        Hoje é o dia da pessoa mais especial da minha vida.
+        Mesmo a distância, você é meu abraço favorito,
+        meu sorriso mais sincero e minha melhor escolha.
+    </p>
+
+    <!-- Coloque aqui o link da foto dela depois -->
+    <img src="COLOQUE_AQUI_LINK_DA_FOTO" alt="Foto dela">
+
+    <br>
+    <button onclick="mostrarMensagem()">Clique aqui 💌</button>
+
+    <div id="mensagem" class="hidden">
+        <p style="margin-top:20px;">
+            Eu sou grato por cada dia que você está na minha vida.
+            Esse é só mais um aniversário,
+            mas é o primeiro de muitos que ainda vamos comemorar juntos.
+            Final do ano eu vou estar aí,
+            e esse vai ser o melhor presente das nossas vidas.
+            Eu te amo ❤️
+        </p>
+    </div>
+</div>
+
+<script>
+function mostrarMensagem(){
+    document.getElementById("mensagem").classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
